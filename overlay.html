@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- {% comment %}
+    <link rel="stylesheet" href="./photos/"> {% endcomment %}
+    {% comment %}
+    <link rel="stylesheet" href="./css/style.css"> {% endcomment %}
+    {% comment %}
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"> {%
+    endcomment %}
+    {% comment %}
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-brands-400.ttf" rel="stylesheet">
+    {% endcomment %} -->
+    <title>overlay</title>
+    <style>
+        .main_div{
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            background-color: crimson;
+            position: relative;
+        }
+        .overlay{
+            position: absolute;
+            background-color: blue;
+            height: 100%;
+            width: 100%;
+            top: 100%;
+            
+        }
+        .main_div:hover .overlay{
+            top: 0;
+            transition: 0.4s;
+        }
+        button{
+            position: relative;
+            width: 100px;
+            height: 50px;
+            border: 1px solid;
+            border-radius: 10px;
+            position: relative;
+            background-color: brown;
+            border:none;
+            overflow: hidden;
+        }
+        button::after{
+            content:'\00bb';
+            width: 25%;
+            height: 100%;
+            background-color: rgb(245, 245, 242);
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            
+        }
+        button:hover::after{
+            border-top-left-radius: 0px;
+            border-bottom-left-radius:0px;
+            width: 100%;
+            transition: 0.2s;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="main_div">
+        <div class="overlay">
+            <h1> Hello</h1>
+        </div>
+    </div> -->
+
+   <button>BETN</button>
+
+</body>
+
+</html>
+<div class="about_main">
+    <div class="about_inner1">
+        <div class="aboutphoto_inner1"><img src="./photos/images (3).jpg" alt="not show" width="100%" height="100%"></div>
+        <div class="aboutphoto_text1"><strong><span style="font-size: 36px; font-weight:bolder; color:crimson"> Super Sports <br> Cars ShowTime </span><br> consectetur adipisicing elit. Nostrum voluptatum recusandae, accusantium quas culpa itaque maiores facere. Natus, corporis veniam! consectetur adipisicing elit. Nostrum voluptatum recusandae,</strong></div>
+    </div>
+    <div class="about_inner1">
+        <div class="aboutphoto_text1"><strong><span style="font-size:36px; font-weight:bolder; color:crimson"> Super Sports <br> Cars ShowTime </span><br>consectetur adipisicing elit. Nostrum voluptatum recusandae,  accusantium quas culpa itaque maiores facere. Natus, corporis veniam! consectetur adipisicing elit. Nostrum voluptatum recusandae,</strong></div>
+        <div class="aboutphoto_inner1"><img src="./photos/images (8).jpg" alt="not show" width="100%" height="100%"></div>
+
+    </div>
+</div>
+</div>
+<!-- +++++++++ -->
+<div class="container-fluid">
+<div class="products_main">
+    <div style="text-align: center;padding-top:40px; font-weight:bolder; color:crimson; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><h2>New Model Cars</h2></div>
+    <div class="productinner_main">
+
+        <div class="card" style="width: 15rem;height:20rem;">
+            <img src="./photos/download.jpg" class="card-img-top" alt="not show" width="100%" height="100%">
+            <div class="card-body">
+                <center><strong style="color: crimson;">♕hlo bhat♕</strong></center> 
+              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 15rem;height:20rem;">
+            <img src="./photos/images (5).jpg" class="card-img-top" alt="not shoe"  width="100%" height="100%">
+            <div class="card-body">
+                <center><strong style="color: crimson;">♕hlo bhat♕</strong></center> 
+              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulkt.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;height:20rem;">
+            <img src="./photos/images (6).jpg" class="card-img-top" alt="not show"  width="100%" height="100%">
+            <div class="card-body">
+              <center><strong style="color: crimson;">♕hlo bhat♕</strong></center> 
+              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;height:20rem;">
+            <img src="./photos/images (7).jpg" class="card-img-top" alt="not show"  width="100%" height="100%">
+            <div class="card-body">
+                <center><strong style="color: crimson;">♕hlo bhat♕</strong></center> 
+              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 14rem;height:20rem;">
+            <img src="./photos/images (8).jpg" class="card-img-top" alt="not show"  width="100%" height="100%">
+            <div class="card-body">
+                <center><strong style="color: crimson;">♕hlo bhat♕</strong></center> 
+              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk .</p>
+            </div>
+          </div>
+    </div>
+    <!-- ++++++++ -->
+    <div class="productinner_main2"></div>
+</div>
